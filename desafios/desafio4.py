@@ -4,7 +4,7 @@ Usa uma pilha no estilo LIFO para empilhar e desempilhar os caracteres
 o ultimo caracterer a entrar deve ser o primeiro a sair
 '''
 
-def validaParenteses(caracteres):
+def valida_parenteses(caracteres):
     pilha = []
 
     pares = {
@@ -22,9 +22,3 @@ def validaParenteses(caracteres):
             pilha.pop()
         
     return True if not pilha else False
-
-if __name__ == "__main__":
-
-    palavra = "{[()]}"
-    ver=validaParenteses(palavra)
-    print(ver)

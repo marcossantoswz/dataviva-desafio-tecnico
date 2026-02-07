@@ -1,10 +1,11 @@
 """
-A entrada é padronizada por meio da remoção de espaços e hífens, além da conversão das letras para minúsculas.
+A entrada é padronizada por meio da remoção de espaços e hífens,
+além da conversão das letras para minúsculas, mas não trata acentuação.
 A verificação compara somente a primeira metade da palavra
 retornando False ao encontrar a primeira discrepância e true caso não encontre nenhuma diferença
 """
 
-def ehPalindromo(palavra):
+def eh_palindromo(palavra):
     palavra = palavra.replace(" ", "").replace("-", "").lower()
     meio = len(palavra) // 2
     for i in range(meio):
@@ -12,7 +13,3 @@ def ehPalindromo(palavra):
             return False
         
     return True
-
-if __name__ == "__main__":
-    ver=ehPalindromo("Araraaaaaaa")
-    print(ver)

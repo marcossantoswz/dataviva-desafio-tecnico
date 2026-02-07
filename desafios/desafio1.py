@@ -2,7 +2,7 @@
 """
 Imprime os numeros de 1 a 100
 Para multiplos de 3 imprime 'Fizz' e multiplos de 5 imprime 'Buzz'
-E para multiplos de 15 (multiplos de 3 e 5 ao mesmo tempo) imprime 'FizzBuzz' evitando comparações desnecessarias
+E para multiplos de 15 (multiplos de 3 e 5 ao mesmo tempo) imprime 'FizzBuzz' evitando comparações desnecessarias e mantem legibilidade
 """
 def FizzBuzz():
     for i in range(1, 101):
