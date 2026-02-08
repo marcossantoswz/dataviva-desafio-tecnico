@@ -1,4 +1,4 @@
-# Desáfio Técnico - DataViva
+# Desafio Técnico - DataViva
 
 Este repositório contém as soluções para o desafio técnico da vaga de **Bolsa de Pesquisa** no DataViva.
 
