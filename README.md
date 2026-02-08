@@ -46,7 +46,7 @@ Algoritmo que recebe uma lista de transações e agrupa a soma dos valores por c
 
 ## ▶️ Como Executar
 
-Certifique-se de ter o **Python 3** instalado.
+Certifique-se de ter o **Python 3** instalado e rode os seguintes comandos na raiz do projeto.
 
 *Foi criado um **test runner** customizado que exibe os resultados em uma tabela colorida no terminal.*
 
@@ -55,7 +55,7 @@ Certifique-se de ter o **Python 3** instalado.
 python3 desafios/desafio1.py
 ```
 
-2. Executar um teste de umm desafio especifico (ex: `desafio5`)
+2. Executar um teste de um desafio especifico (ex: `desafio5`)
 
 ```bash
 python3 -m testes.teste_desafio5
